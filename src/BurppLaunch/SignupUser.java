@@ -66,7 +66,7 @@ public class SignupUser {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("I agree to terms and conditions ")));
 		dr.findElement(By.className("android.widget.CheckBox")).click();
 		dr.findElement(By.xpath("//android.widget.Button[@index='4']")).click();
-		scroll();
+	
 	}
 	
 	public void scroll(){
