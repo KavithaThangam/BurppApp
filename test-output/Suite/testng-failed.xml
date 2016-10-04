@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="BurppLaunch.SignupUser">
+        <methods>
+          <include name="signupUser"/>
+          <include name="deviceInfo"/>
+        </methods>
+      </class> <!-- BurppLaunch.SignupUser -->
+      <class name="BurppLaunch.Sample">
+        <methods>
+          <include name="BurppLogin"/>
+        </methods>
+      </class> <!-- BurppLaunch.Sample -->
+      <class name="BurppLaunch.BurppLaunch">
+        <methods>
+          <include name="BurppApp"/>
+        </methods>
+      </class> <!-- BurppLaunch.BurppLaunch -->
+      <class name="BurppLaunch.OrderTakingPopup">
+        <methods>
+          <include name="Popup"/>
+        </methods>
+      </class> <!-- BurppLaunch.OrderTakingPopup -->
+      <class name="BurppLaunch.PlaceOrder">
+        <methods>
+          <include name="placeOrderPage"/>
+          <include name="placeOrder"/>
+        </methods>
+      </class> <!-- BurppLaunch.PlaceOrder -->
+      <class name="BurppLaunch.TableMenu">
+        <methods>
+          <include name="Tablemenu"/>
+        </methods>
+      </class> <!-- BurppLaunch.TableMenu -->
+      <class name="BurppLaunch.BurppFull">
+        <methods>
+          <include name="tableProcess"/>
+          <include name="burppFramework"/>
+        </methods>
+      </class> <!-- BurppLaunch.BurppFull -->
+      <class name="BurppLaunch.OrderPage">
+        <methods>
+          <include name="orderDetailPage"/>
+        </methods>
+      </class> <!-- BurppLaunch.OrderPage -->
+      <class name="BurppLaunch.ItemSelection">
+        <methods>
+          <include name="Item"/>
+        </methods>
+      </class> <!-- BurppLaunch.ItemSelection -->
+      <class name="BurppLaunch.SelectTablePage">
+        <methods>
+          <include name="selectTable"/>
+          <include name="SelectTables"/>
+        </methods>
+      </class> <!-- BurppLaunch.SelectTablePage -->
+      <class name="BurppLaunch.DispalyPage">
+        <methods>
+          <include name="displayPageVerify"/>
+          <include name="BurppDisplay"/>
+        </methods>
+      </class> <!-- BurppLaunch.DispalyPage -->
+      <class name="BurppLaunch.LoginPage">
+        <methods>
+          <include name="loginProcess"/>
+          <include name="BurppLogin"/>
+        </methods>
+      </class> <!-- BurppLaunch.LoginPage -->
+      <class name="BurppLaunch.CategorySelection">
+        <methods>
+          <include name="Category"/>
+        </methods>
+      </class> <!-- BurppLaunch.CategorySelection -->
+      <class name="BurppLaunch.ItemDetailPage">
+        <methods>
+          <include name="ItemDetails"/>
+          <include name="deviceInfo"/>
+        </methods>
+      </class> <!-- BurppLaunch.ItemDetailPage -->
+      <class name="BurppLaunch.TakeAway">
+        <methods>
+          <include name="takeAwayProcess"/>
+        </methods>
+      </class> <!-- BurppLaunch.TakeAway -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="BurppLaunch.LoginPage"/>
+      <class name="BurppLaunch.OrderPage"/>
+      <class name="BurppLaunch.SelectTablePage"/>
+      <class name="BurppLaunch.ItemDetailPage"/>
+      <class name="BurppLaunch.ItemSelection"/>
+      <class name="BurppLaunch.BurppLaunch"/>
+      <class name="BurppLaunch.OrderTakingPopup"/>
+      <class name="BurppLaunch.DispalyPage"/>
+      <class name="BurppLaunch.BurppFull"/>
+      <class name="BurppLaunch.TakeAway"/>
+      <class name="BurppLaunch.CategorySelection"/>
+      <class name="BurppLaunch.PlaceOrder"/>
+      <class name="BurppLaunch.SignupUser"/>
+      <class name="BurppLaunch.TableMenu"/>
+      <class name="BurppLaunch.Sample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
