@@ -145,7 +145,7 @@ import org.testng.annotations.Test;
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ImageButton[@index='0']")));
 	        /*dr.findElement(By.id("kot.burpp:id/bill")).click();
 	        dr.findElement(By.xpath("//android.widget.TextView[@text='BTprinter8045']")).click();*/
-	       scroll;
+	     
 	        dr.findElement(By.xpath("//android.widget.TextView[@text='T2']")).click();
 	        dr.scrollTo("BILL REPRINT");
 	        dr.findElement(By.id("kot.burpp:id/billreprint")).click();
