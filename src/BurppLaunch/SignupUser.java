@@ -27,7 +27,7 @@ public class SignupUser {
 		capability.setCapability("platformVersion", "4.4.2");
 		capability.setCapability("appPackage", "kot.burpp");
 		capability.setCapability("appActivity", "kot.burpp.SplashScreenlogin");
-		dr = new AndroidDriver(new URL("http://192.168.1.19:4723/wd/hub"),capability);
+		dr = new AndroidDriver(new URL("http://192.168.1.13:4723/wd/hub"),capability);
 	}
 	
 	@BeforeMethod
@@ -66,7 +66,7 @@ public class SignupUser {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("I agree to terms and conditions ")));
 		dr.findElement(By.className("android.widget.CheckBox")).click();
 		dr.findElement(By.xpath("//android.widget.Button[@index='4']")).click();
-	
+		
 	}
 	
 	public void scroll(){

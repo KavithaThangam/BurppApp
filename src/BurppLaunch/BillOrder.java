@@ -7,7 +7,7 @@ import io.appium.java_client.android.AndroidKeyCode;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-	import org.openqa.selenium.By;
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -145,7 +145,7 @@ import org.testng.annotations.Test;
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.ImageButton[@index='0']")));
 	        /*dr.findElement(By.id("kot.burpp:id/bill")).click();
 	        dr.findElement(By.xpath("//android.widget.TextView[@text='BTprinter8045']")).click();*/
-	        
+	        scroll();
 	        dr.findElement(By.xpath("//android.widget.TextView[@text='T2']")).click();
 	        dr.scrollTo("BILL REPRINT");
 	        dr.findElement(By.id("kot.burpp:id/billreprint")).click();
