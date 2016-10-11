@@ -5,12 +5,12 @@
     <classes>
       <class name="BurppLaunch.LoginPage"/>
       <class name="BurppLaunch.OrderPage"/>
+      <class name="BurppLaunch.DisplayPage"/>
       <class name="BurppLaunch.SelectTablePage"/>
       <class name="BurppLaunch.ItemDetailPage"/>
       <class name="BurppLaunch.ItemSelection"/>
       <class name="BurppLaunch.BurppLaunch"/>
       <class name="BurppLaunch.OrderTakingPopup"/>
-      <class name="BurppLaunch.DispalyPage"/>
       <class name="BurppLaunch.BurppFull"/>
       <class name="BurppLaunch.TakeAway"/>
       <class name="BurppLaunch.CategorySelection"/>

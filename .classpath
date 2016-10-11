@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/curvesapi-1.03.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/poi-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/poi-examples-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/poi-excelant-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/poi-ooxml-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/poi-ooxml-schemas-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/poi-scratchpad-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache POI/poi-3.14/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/java-client-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jars/testng-6.9.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
